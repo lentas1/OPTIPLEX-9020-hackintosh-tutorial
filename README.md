@@ -1,17 +1,15 @@
 # Optiplex-9020-USFF-Hackintosh
 This is my Hackintosh build using a Dell Optiplex 9020 Ultra Small Form Factor (in the Hackintosh community, also known as a OptiMac) using OpenCore.
 
- ![alt test](/Pictures/1341macos.png)
- ![alt test](/Pictures/OptiMac2.jpg)
+
 
 # PC specifications:
 - OS's installed: Ventura dualbooted with Windows 11 Pro
 - PC Model: Dell Optiplex 9020 USFF (Ultra Small Form Factor)
-- Processor: Intel i5-4590s @ 3.00 Ghz (Haswell)
+- Processor: Intel i5-4690k 
 - RAM: 16GB DDR3
-- Storage: 128 GB SSD x2: MacOS and Windows
+- Storage: 160GB hdd (catalina)
 - Graphics card: Intel HD Graphics 4600
-- Using a Display port to HDMI adapter to connect to my TV
   
 # Notes:
 - I'm not responsible for any harm done to your PC :-) Use my experiences and EFI at your own risk, even though I think this doesn't do much harm ;-).
@@ -19,13 +17,8 @@ This is my Hackintosh build using a Dell Optiplex 9020 Ultra Small Form Factor (
 https://www.tonymacx86.com/threads/the-dell-optimac-big-sur-opencore-thread.302383/
 - AMD GPU is NOT supported/tested and will fail to work without changes to the EFI.
 
-# Create your USB stick with your pre-made EFI:
-Please see this page:
-https://github.com/joostiphone/MacOS-USB-Installer
 
- ![alt test](/Pictures/USB-STICK-VENT-MONT.png)
-
-# BIOS Settings (from tonymacx86.com):
+# UEFI Settings (from tonymacx86.com):
 https://www.tonymacx86.com/threads/the-dell-optimac-big-sur-opencore-thread.302383/
 
 # OpenCore
@@ -118,22 +111,8 @@ Please note that I only use the latest Stable released versions of MacOS and Ope
 
 
 # Download my latest EFI here (zip file):
-![alt test](Pictures/Apple-icon.png)
 
-Download here. The EFI is without my serial number, so you need to enter your own using OpenCore Configurator:
-
-# Big Sur (OpenCore)
-https://mega.nz/folder/R0xwBAKJ#4hIlvkFZhdFMzu5AvSbppQ
-
-# Monterey (OpenCore)
-https://mega.nz/folder/t04m2AoJ#AmwIXnWD5GFv-X5kxCWFBQ
-
-# Ventura (OpenCore)
-https://mega.nz/folder/w5BTCA5b#OIVugo3YLzY94q7DKuh3KQ
-
-- text in red
-
-<b> When using Ventura, don't forget to apply OpenCore Legacy Patcher after you've updated MacOS! </b>
+IN progress...
 
 
 ![alt test](Pictures/platforminfo.png)
